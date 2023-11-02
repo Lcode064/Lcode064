@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.intro-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.separator {
+    width: 50px;
+    height: 5px;
+    background-color: #fff;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.links {
+    display: flex;
+}
+
+.links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.links a:hover,
+.links a:active {
+    color: #000;
+    background-color: #fff;
+}
+
+.payment-button-container {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.payment-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.payment-button:hover {
+    background-color: #333;
+}
+
+
+.products-section {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    background-color: #444;
+    padding: 5px;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.card button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer-links a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+.description {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
